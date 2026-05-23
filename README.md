@@ -1,6 +1,6 @@
 # Typed Narration Video Template
 
-A Remotion starter template for turning your own voice and transcript into a clean typography video with a typewriter animation.
+A Codex and Remotion starter template for turning your own voice and transcript into a clean typography video with a typewriter animation.
 
 It includes two starter themes:
 
