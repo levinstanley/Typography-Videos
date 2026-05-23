@@ -1,0 +1,18 @@
+This is a free starter template for making beautiful typography videos with your own voice and words
+
+I built this using Codex and Remotion, so the video is fully editable with code
+
+Get the repo from the link below, add your audio and script, and make your own
+
+This template includes a typewriter animation and two themes
+
+Light mode and Dark mode
+
+Change the font
+Change the background
+Change the animation
+Create your own visual style
+
+If you make something with this, I would love to see it
+
+Enjoy!

@@ -1,0 +1,28 @@
+{
+  "id": "typewriter-light",
+  "label": "Typewriter Light",
+  "background": {
+    "type": "solid",
+    "color": "#F5F5F7"
+  },
+  "text": {
+    "color": "#000000",
+    "fontFamily": "Courier Prime, Geist Mono, Courier New, Courier, monospace",
+    "fontSize": 44,
+    "fontWeight": 400,
+    "letterSpacing": 0,
+    "lineHeight": 66,
+    "maxLineChars": 54,
+    "textBlockWidth": 1420,
+    "align": "left"
+  },
+  "typing": {
+    "audioDelayMs": 0,
+    "speedFactor": 0.62,
+    "holdAfterLineMs": 320,
+    "fadeMinMs": 40,
+    "fadeMaxMs": 120,
+    "introFadeMs": 340,
+    "introGapMs": 80
+  }
+}

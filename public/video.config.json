@@ -1,0 +1,24 @@
+{
+  "theme": "typewriter-light",
+  "switchToTheme": "typewriter-dark",
+  "switchOnWord": "Dark",
+  "themeSwitchDurationMs": 460,
+  "lineTimingOverrides": [
+    {
+      "lineStartsWith": "Change the font",
+      "startOffsetMs": 700,
+      "wordOffsetMs": 700,
+      "endOffsetMs": 700,
+      "speedFactor": 0.32
+    },
+    {
+      "lineStartsWith": "If you make something with this",
+      "startOffsetMs": 0,
+      "wordOffsetMs": 0,
+      "endOffsetMs": 350,
+      "speedFactor": 0.28,
+      "holdAfterLineMs": 40
+    }
+  ],
+  "introTitle": ""
+}

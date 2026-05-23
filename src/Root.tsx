@@ -1,18 +1,19 @@
 import "./index.css";
-import { Composition } from "remotion";
-import { MyComposition } from "./Composition";
+import {Composition} from "remotion";
+import {OneWordAudioVideo} from "./Composition";
+
+const fps = 30;
+const durationInSeconds = 36;
 
 export const RemotionRoot: React.FC = () => {
-  return (
-    <>
-      <Composition
-        id="MyComp"
-        component={MyComposition}
-        durationInFrames={60}
-        fps={30}
-        width={1280}
-        height={720}
-      />
-    </>
-  );
+	return (
+		<Composition
+			id="OneWordAudioVideo"
+			component={OneWordAudioVideo}
+			durationInFrames={Math.ceil(durationInSeconds * fps)}
+			fps={fps}
+			width={1920}
+			height={1080}
+		/>
+	);
 };

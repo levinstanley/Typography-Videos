@@ -1,0 +1,28 @@
+{
+  "id": "typewriter-dark",
+  "label": "Typewriter Dark",
+  "background": {
+    "type": "solid",
+    "color": "#080808"
+  },
+  "text": {
+    "color": "#F5F1EA",
+    "fontFamily": "Courier Prime, Geist Mono, Courier New, Courier, monospace",
+    "fontSize": 44,
+    "fontWeight": 400,
+    "letterSpacing": 0,
+    "lineHeight": 66,
+    "maxLineChars": 54,
+    "textBlockWidth": 1420,
+    "align": "left"
+  },
+  "typing": {
+    "audioDelayMs": 0,
+    "speedFactor": 0.62,
+    "holdAfterLineMs": 360,
+    "fadeMinMs": 45,
+    "fadeMaxMs": 130,
+    "introFadeMs": 380,
+    "introGapMs": 80
+  }
+}

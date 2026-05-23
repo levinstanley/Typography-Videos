@@ -1,7 +1,13 @@
-node_modules
-dist
+node_modules/
+dist/
+out/
+whisper.cpp/
+
 .DS_Store
 .env
+tmp.json
 
-# Ignore the output video from Git but not videos you import into src/.
-out
+# Local narration and generated timing files.
+public/narration.*
+public/captions.json
+public/whisper-captions.json

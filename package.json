@@ -1,16 +1,22 @@
 {
-  "name": "one-word-audio-video",
+  "name": "typed-narration-video-template",
   "version": "1.0.0",
-  "description": "My Remotion video",
-  "repository": {},
+  "description": "A themed Remotion template for typed narration videos",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/levinstanley/Typography-Videos.git"
+  },
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "@remotion/captions": "4.0.464",
     "@remotion/cli": "4.0.464",
+    "@remotion/install-whisper-cpp": "4.0.464",
+    "@remotion/tailwind-v4": "4.0.464",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remotion": "4.0.464",
-    "@remotion/tailwind-v4": "4.0.464",
+    "sharp": "0.33.5",
     "tailwindcss": "4.0.0"
   },
   "devDependencies": {
@@ -24,6 +30,14 @@
   "scripts": {
     "dev": "remotion studio",
     "build": "remotion bundle",
+    "convert-audio": "DYLD_LIBRARY_PATH=node_modules/@remotion/compositor-darwin-arm64 node_modules/@remotion/compositor-darwin-arm64/ffmpeg -y -i public/narration.m4a -vn -ar 16000 -ac 1 -c:a pcm_s16le public/narration.wav && DYLD_LIBRARY_PATH=node_modules/@remotion/compositor-darwin-arm64 node_modules/@remotion/compositor-darwin-arm64/ffmpeg -y -i public/narration.m4a -vn -c:a libmp3lame -b:a 192k public/narration.mp3",
+    "transcribe": "node scripts/transcribe.mjs",
+    "align": "node scripts/align-transcript.mjs",
+    "render": "node scripts/render-word-video.mjs --theme=typewriter-light --out=out/Intro-to-typography-video.mp4",
+    "render:frames": "node scripts/render-word-video.mjs",
+    "render:theme": "node scripts/render-word-video.mjs",
+    "render:light": "node scripts/render-word-video.mjs --theme=typewriter-light --out=out/Intro-to-typography-video.mp4",
+    "render:dark": "node scripts/render-word-video.mjs --theme=typewriter-dark --out=out/typewriter-dark.mp4",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc"
   },
