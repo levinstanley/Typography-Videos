@@ -9,6 +9,14 @@ It includes two starter themes:
 
 The default demo starts in light mode and switches to dark mode when the word `Dark` is spoken.
 
+## Demo
+
+[Watch the demo video](public/demo/Intro-to-typography-video.mp4)
+
+| Light mode | Dark mode |
+| --- | --- |
+| ![Light mode typography video preview](public/demo/light-mode.png) | ![Dark mode typography video preview](public/demo/dark-mode.png) |
+
 ## Get Started
 
 Install dependencies:
