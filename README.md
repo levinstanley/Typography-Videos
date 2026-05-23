@@ -15,7 +15,7 @@ The default demo starts in light mode and switches to dark mode when the word `D
 
 | Light mode | Dark mode |
 | --- | --- |
-| ![Light mode typography video preview](public/demo/light-mode.png) | ![Dark mode typography video preview](public/demo/dark-mode.png) |
+| ![Light mode typography video preview](public/demo/light-mode.jpg) | ![Dark mode typography video preview](public/demo/dark-mode.jpg) |
 
 ## Get Started
 
